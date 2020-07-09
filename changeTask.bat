@@ -1,0 +1,4 @@
+SCHTASKS /CHANGE /TN "\TEST Task 1" /TR "\"%USERPROFILE%\Desktop\RunMe1.bat\"" /ST 17:30
+PAUSE
+SCHTASKS /CHANGE /TN "\TEST Task 2" /TR "\"%USERPROFILE%\Desktop\RunMe2.bat\"" /ST 17:31
+PAUSE
